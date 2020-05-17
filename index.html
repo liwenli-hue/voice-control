@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>变态音量控制</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <div class="container">
+        <div class="title">0</div>
+        <div class="slide-bar">
+            <div class="bar"></div>
+        </div>
+        <!-- 控制条 -->
+        <div class="control">
+            <!-- 中间的区域 -->
+            <div class="center"></div>
+            <div class="pointer"></div>
+        </div>
+        <div class="desc">
+            <p>根据按空格键时箭头的指向控制音量</p>
+            <p>中间：增加5%</p>
+            <p>其他：清零</p>
+        </div>
+    </div>
+    <audio src="./2.mp3" controls></audio>
+    <script src="./index.js"></script>
+</body>
+</html>

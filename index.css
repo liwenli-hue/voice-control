@@ -1,0 +1,46 @@
+.title {
+    text-align: center;
+}
+
+.slide-bar {
+    width: 15px;
+    height: 150px;
+    border: 2px solid #333;
+    margin: 0 auto;
+    position: relative;
+}
+
+.bar{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* height: 5%; */
+    background: rgb(49, 49, 207);
+}
+
+.control{
+    width: 300px;
+    height: 15px;
+    background: lightblue;
+    margin: 15px auto;
+}
+
+.center{
+    width: 20px;
+    height: 100%;
+    background: rgb(255, 145, 0);
+    margin: 0 auto;
+}
+
+.pointer{
+    width: 20px;
+    height: 22px;
+    background: url("./pointer.jpg");
+    /* 显示时，向左偏移自身宽度的一半 */
+    transform: translateX(-50%);
+}
+
+.desc{
+    margin: 35px 0;
+    text-align: center;
+}
